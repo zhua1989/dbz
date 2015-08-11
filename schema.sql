@@ -1,0 +1,7 @@
+CREATE TABLE teams (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR);
+CREATE TABLE characters (id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR, dead INTEGER, team_id INTEGER, FOREIGN KEY (team_id) REFERENCES teams(id));
+
+
+
+INSERT INTO teams(name) VALUES ('good_guys');
+INSERT INTO teams(name) VALUES ('bad_guys');

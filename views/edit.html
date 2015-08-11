@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Form</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/superhero/bootstrap.min.css">
+</head>
+<body>
+<h1>Update This Character's Info</h1>
+<form method="POST" action="/characters/<%= id %>?_method=PUT">
+Update Name: <input type="text" name="name" value=<%=name%>>
+Did he die?: <input type="text" name="dead" value=<%=dead%>>
+Is he on a different team?: <input type="text" name="team_id" value=<%=team_id%>>
+<input type="submit" value="update">
+<a href="/">Cancel</a>
+</form>
+</body>
+</html>

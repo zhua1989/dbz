@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+}
+
+header {
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+ul {
+    padding: 50px;
+    background: Gray;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+li {
+    Display: inline;
+    padding: 0px 20px 0px 10px;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+
+input {
+    border: 35px;
+    background: gray ;
+    padding: 10px;
+    font-size: 22x;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+button[type="submit"] {
+    background: red;
+    color: white;
+    font-family: 'Slabo 27px', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+img {
+    width: 20%;
+    border-radius: 30px;
+}
+
+a {
+    font-size: 25px;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+article {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Slabo 27px', sans-serif;
+}
+
+textarea {
+    font-family: 'Slabo 27px', sans-serif;
+}

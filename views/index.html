@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DBZ</title>
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/superhero/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="animated infinite bounce">DBZ App</h1>
+    <h2>Good Guys</h2>
+    <ul>
+        <% goodGuys.forEach(function(e){ %>
+<!--             <form method="GET" action="characters/<%=e.id%>">
+ -->                <li> Name:
+                    <a href="/characters/<%=e.id%>"><%= e.name %></a></li>
+                        
+                    
+                
+<!--                 <input type="hidden" value="<%=e.id%>">
+            </form> -->
+            <%  }) %>
+    </ul>
+    <h3 class="animated bounceInDown">Bad Guys</h3>
+     <ul>
+          <% Name: badGuys.forEach(function(e){ %>
+                <li>Name: <a href="/characters/<%=e.id%>"><%=e.name%></a></li>
+                
+         <% }) %>
+         
+
+
+     </ul>
+     <a href="/characters/new">Add a New Character</a>   
+</body>
+
+</html>
